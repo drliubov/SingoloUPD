@@ -443,6 +443,7 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -10px;
+	justify-content: center;
 }
 .about__staff {
 	flex: 0 1 33.333%;
@@ -453,7 +454,7 @@ h2 {
 
 @media (min-width: 320px) and (max-width: 767px) {
 	.about__staff {
-		flex: 0 1 100%;
+		flex: 0 1 300px;
 		margin-bottom: 30px;
 	}
 	.about__staff:last-child {
